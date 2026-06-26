@@ -1,0 +1,13 @@
+Line,Qty,References,Value,Footprint,Type,Manufacturer,Manufacturer Part Number,Notes
+1,1,U1,Seeed XIAO RP2040,XIAO-RP2040-SMD,SMD module,Seeed Studio,102010428,Castellated module; confirm PCBWay can source or consign
+2,1,U2,MCP6002T-E/MS,MSOP-8_3x3mm_P0.65mm,SMD,Microchip,MCP6002T-E/MS,Dual rail-to-rail op amp
+3,1,J1,KMC RJ45 MIC,RJ45_Amphenol_RJHSE5380,Through-hole,Amphenol,RJHSE-5380,8P8C RJ45 jack
+4,1,R1,2.2k,R_0603_1608Metric,SMD,Generic,0603 1%,Electret mic bias
+5,3,R2 R3 R13,100k,R_0603_1608Metric,SMD,Generic,0603 1%,VREF divider and input bias
+6,2,R4 R7,10k,R_0603_1608Metric,SMD,Generic,0603 1%,Gain resistor and PTT pull-up
+7,1,R5,200k,R_0603_1608Metric,SMD,Generic,0603 1%,Preamp feedback gain resistor
+8,3,R6 R8 R11,1k,R_0603_1608Metric,SMD,Generic,0603 1%,GPIO/ADC/LED series resistors
+9,2,C1 C2,1uF,C_0603_1608Metric,SMD,Generic,0603 X5R/X7R,Audio coupling and VREF filter
+10,1,C3,1nF,C_0603_1608Metric,SMD,Generic,0603 C0G/X7R,ADC low-pass filter
+11,2,C4 C5,100nF,C_0603_1608Metric,SMD,Generic,0603 X7R,PTT debounce and op-amp decoupling
+12,1,D1,PTT_LED,LED_0603_1608Metric,SMD,Generic,0603 LED,Firmware-driven status LED

@@ -1,0 +1,60 @@
+(footprint "TestPoint_THTPad_D1.5mm"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Round 1.5mm test pad")
+  (tags "test point pad")
+
+  (property "Reference" "REF**" (at 0 -1.5 0)
+    (layer "F.SilkS")
+    (uuid "a2e7a016-2e58-4588-ab36-6d3b476dfacb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "TestPoint_THTPad_D1.5mm" (at 0 1.5 0)
+    (layer "F.Fab")
+    (uuid "ffdf1d2a-e55d-465b-babc-9fd7793f7452")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "346b5817-4f56-4d37-aecd-4ebb88b19467")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -1 -1)
+    (end 1 1)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "650b93cf-5d05-4a66-9e4e-20e31b7764f2")
+  )
+
+  (fp_rect
+    (start -0.8 -0.8)
+    (end 0.8 0.8)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "d0ee157a-cab0-47ec-a89b-3a8ed7a65138")
+  )
+
+  (fp_rect
+    (start -0.75 -0.75)
+    (end 0.75 0.75)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "e8d49884-e75c-4444-99a3-c18889b39271")
+  )
+
+  (pad "1" thru_hole circle
+    (at 0 0 0)
+    (size 1.5 1.5)
+    (drill 0.7)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3a9fbcc7-042f-4bc0-aeff-9df198691b82")
+  )
+
+)

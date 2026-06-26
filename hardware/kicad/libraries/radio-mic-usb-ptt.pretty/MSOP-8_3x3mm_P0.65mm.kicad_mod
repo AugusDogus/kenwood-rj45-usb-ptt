@@ -1,0 +1,116 @@
+(footprint "MSOP-8_3x3mm_P0.65mm"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "MSOP-8 3x3mm pitch 0.65mm")
+  (tags "MSOP-8 VSSOP-8")
+
+  (property "Reference" "REF**" (at 0 -2.4 0)
+    (layer "F.SilkS")
+    (uuid "4ee5ae71-59e0-45ac-b381-f7a433e08962")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "MSOP-8_3x3mm_P0.65mm" (at 0 2.4 0)
+    (layer "F.Fab")
+    (uuid "c278405d-91f2-411a-8d86-5ba2b0d1077e")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "db4757ed-0a97-4e94-a22d-b52be890639b")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2.55 -1.85)
+    (end 2.55 1.85)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "7ab2dc34-75bd-4a86-bbd5-5b0203c1404b")
+  )
+
+  (fp_rect
+    (start -1.5 -1.5)
+    (end 1.5 1.5)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "e7635c0e-9a9d-4ec1-93b8-3e0995cf7f14")
+  )
+
+  (fp_rect
+    (start -1.5 -1.5)
+    (end 1.5 1.5)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "8d29e6c8-cad2-430d-9bff-d4b5c9f94ae5")
+  )
+
+  (pad "1" smd rect
+    (at -1.75 -0.975 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "fd5673e5-40ea-46d9-a203-e879fb1ed774")
+  )
+
+  (pad "2" smd rect
+    (at -1.75 -0.325 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "4237f47a-6349-4e37-878d-95b958ae19fb")
+  )
+
+  (pad "3" smd rect
+    (at -1.75 0.325 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "b79be0e5-fa2c-4941-827c-ffe2f6e47c5d")
+  )
+
+  (pad "4" smd rect
+    (at -1.75 0.975 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "f45a712f-396c-4acf-b420-d050cfbe2a21")
+  )
+
+  (pad "5" smd rect
+    (at 1.75 0.975 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "698d6c8e-1a04-47fe-ba57-914cc26ee9cb")
+  )
+
+  (pad "6" smd rect
+    (at 1.75 0.325 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "b1ea8bdf-f97c-42b5-8f30-bd551396fe82")
+  )
+
+  (pad "7" smd rect
+    (at 1.75 -0.325 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "f7e87ef2-8caf-49b8-bdd7-50a3a2dc3ed2")
+  )
+
+  (pad "8" smd rect
+    (at 1.75 -0.975 0)
+    (size 1 0.4)
+    (drill 0)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "8b4ed727-9481-4a10-85d3-d3cc45944337")
+  )
+
+)
