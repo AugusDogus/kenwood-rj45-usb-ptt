@@ -2,7 +2,7 @@
 
 Upload these files for a PCB + assembly order:
 
-- PCB fabrication: `radio-mic-usb-ptt-revA-gerbers-drill.zip`
+- PCB fabrication: `kenwood-rj45-usb-ptt-revA-fabrication.zip` release asset, or zip the files in `gerbers/` and `drill/`
 - Assembly BOM: `BOM_pcbway_revA.csv`
 - Pick-and-place / centroid: `positions_revA.csv`
 - Notes: `PCBWAY_NOTES_revA.md`

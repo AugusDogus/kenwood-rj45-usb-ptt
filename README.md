@@ -6,9 +6,9 @@ Rev A is a PCBWay-assemblable board. It uses a Seeed XIAO RP2040 module for USB 
 
 ## What To Upload To PCBWay
 
-Use the files in `manufacturing/revA/`:
+Use the release assets from `v0.1.0`, or the matching files in `manufacturing/revA/`:
 
-- `radio-mic-usb-ptt-revA-gerbers-drill.zip` for PCB fabrication
+- `kenwood-rj45-usb-ptt-revA-fabrication.zip` for PCB fabrication Gerbers/drill
 - `BOM_pcbway_revA.csv` for assembly BOM
 - `positions_revA.csv` for pick-and-place / centroid
 - `PCBWAY_NOTES_revA.md` for assembly notes
