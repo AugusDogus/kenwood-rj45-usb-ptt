@@ -1,4 +1,4 @@
-# radio-mic-usb-ptt
+# kenwood-rj45-usb-ptt
 
 USB push-to-talk adapter for Kenwood-style RJ45 handheld microphones such as KMC-30 / KMC-32 compatible mics.
 
