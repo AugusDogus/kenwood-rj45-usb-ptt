@@ -2,6 +2,12 @@
 
 USB push-to-talk adapter for Kenwood-style RJ45 handheld microphones such as KMC-30 / KMC-32 compatible mics.
 
+## Why
+
+The goal is a CB-radio-style handheld PTT mic for a computer, and nothing off the shelf does the whole job. USB PTT mics are desktop/gooseneck units, handheld dispatch mics with the right feel are not USB (XLR, RJ45, or radio-specific plugs) and need extra hardware, and USB handheld mics have no PTT switch. Level-triggered or software PTT is unreliable; the mic's physical switch should be the trigger.
+
+This adapter closes that gap: plug in a cheap, widely available Kenwood-style RJ45 hand mic and the board shows up as a standard USB audio microphone plus a USB HID keyboard that holds F13 while PTT is pressed, so any app with a push-to-talk keybind (Discord, Mumble, dispatch software) works with no drivers or custom software.
+
 Rev A is a PCBWay-assemblable board. It uses a Seeed XIAO RP2040 module for USB and firmware, an MCP6002 analog front-end for the microphone, and an RJ45 jack for the hand mic.
 
 ## What To Upload To PCBWay
